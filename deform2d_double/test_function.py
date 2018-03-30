@@ -1,7 +1,7 @@
-import deform2d_double.deform_conv2d_op as deform_conv
+import deform_conv2d_op as deform_conv
 import torch
 import os
-from deform2d_double.deform_conv2d_functions import ConvOffset2dFunction as my
+from deform_conv2d_functions import ConvOffset2dFunction as my
 import time
 
 os.environ['CUDA_VISIBLE_DEVICES'] = '3'

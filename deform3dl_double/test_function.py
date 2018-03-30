@@ -1,7 +1,7 @@
-import deform3dl_double.deform_conv3dl_op as deform_conv
+import deform_conv3dl_op as deform_conv
 import torch
 import os
-from deform3dl_double.deform_conv3dl_functions import ConvOffset3dFunction
+from deform_conv3dl_functions import ConvOffset3dFunction
 
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
